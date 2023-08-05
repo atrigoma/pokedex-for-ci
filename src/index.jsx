@@ -3,10 +3,10 @@ import React from 'react'
 import App from './App'
 import './styles.css'
 
-import { createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client'
 
 //ReactDOM.render(<App />, document.getElementById('app'))
 
-const container = document.getElementById('app');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(<App tab="home" />);
+const container = document.getElementById('app')
+const root = createRoot(container) // createRoot(container!) if you use TypeScript
+root.render(<App tab="home" />)
